@@ -13,7 +13,7 @@ static TextLayer *s_textlayer_date;
 static void initialise_ui(void) {
   s_window = window_create();
   window_set_background_color(s_window, GColorClear);
-  window_set_fullscreen(s_window, 1);
+  window_set_fullscreen(s_window, true);
   
   s_res_image_bg_2 = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_BG_2);
   s_res_bitham_42_medium_numbers = fonts_get_system_font(FONT_KEY_BITHAM_42_MEDIUM_NUMBERS);
@@ -86,7 +86,6 @@ void show_clock(void) {
   window_stack_push(s_window, true);
   
   tick_timer_service_subscribe(MINUTE_UNIT, handle_minute_tick);
-  battery_state_service_subscribe(battery_handler);
   
   // Prevent starting blank
   time_t now = time(NULL);
