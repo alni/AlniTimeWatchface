@@ -1,0 +1,35 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "alexander.nilsen.no@gmail.com",
+    "longName": "Alni Time",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/BG_2_144x168.png",
+                "name": "IMAGE_BG_2",
+                "type": "png"
+            },
+            {
+                "file": "images/no_litter.png",
+                "name": "IMAGE_NO_LITTER",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Alni Time",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "7351b6fa-1286-4f0c-9d51-1e048cd3bddb",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
