@@ -9,8 +9,28 @@
     "resources": {
         "media": [
             {
+                "file": "images/BG_8_144x168.png",
+                "name": "IMAGE_BG_8",
+                "type": "png"
+            },
+            {
+                "file": "images/BG_5_144x168.png",
+                "name": "IMAGE_BG_5",
+                "type": "png"
+            },
+            {
                 "file": "images/BG_2_144x168.png",
                 "name": "IMAGE_BG_2",
+                "type": "png"
+            },
+            {
+                "file": "images/BG_4_144x168.png",
+                "name": "IMAGE_BG_4",
+                "type": "png"
+            },
+            {
+                "file": "images/BG_3_144x168.png",
+                "name": "IMAGE_BG_3",
                 "type": "png"
             },
             {
@@ -23,7 +43,6 @@
     "sdkVersion": "3",
     "shortName": "Alni Time",
     "targetPlatforms": [
-        "aplite",
         "basalt"
     ],
     "uuid": "7351b6fa-1286-4f0c-9d51-1e048cd3bddb",
